@@ -1,8 +1,8 @@
 import React from "react";
-import Facebook from "lucide-react/dist/esm/icons/facebook";
-import Youtube from "lucide-react/dist/esm/icons/youtube";
-import Instagram from "lucide-react/dist/esm/icons/instagram";
 import { 
+  Facebook,
+  Youtube,
+  Instagram,
   Truck, 
   DollarSign,
   Check,

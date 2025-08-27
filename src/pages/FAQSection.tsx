@@ -17,10 +17,10 @@ const faqs = [
   { question: "What is your refund policy?", answer: "We have a 14-day refund policy for eligible cases." }
 ];
 
-export default function FAQSection() {
+const FAQSection: React.FC = () => {
   const [openIndex, setOpenIndex] = useState(0);
 
-  const toggleFAQ = (index) => {
+  const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
@@ -54,4 +54,6 @@ export default function FAQSection() {
       </div>
     </div>
   );
-}
+};
+
+export default FAQSection;
